@@ -1,12 +1,11 @@
 # Composer Alpine
-
-Latest PHP 5/7 Composer build on top of Alpine Linux.
-These docker images remains small (~45Mb).
+Latest PHP Composer build on top of Alpine Linux.
 
 ## Tags
 Different tags are available to run Composer with a specific PHP versions:
-* `php-5.6`
+* `latest`
 * `php-7.0`
+* `php-5.6`
 
 ## Alias
 ```sh
@@ -15,7 +14,7 @@ function composer() {
         -v $(pwd):/usr/src/app \
         -v ~/.composer:/home/composer/.composer \
         -v ~/.ssh/id_rsa:/home/composer/.ssh/id_rsa:ro \
-        soifou/composer-alpine:php-7.0 ${@:1}
+        soifou/composer:php-7.0 ${@:1}
 }
 ```
 Change the tag or create additional aliases if you want to deal with another PHP version.
