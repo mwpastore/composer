@@ -26,4 +26,4 @@ You may want to override and add your own settings.
 
 Add an extra line to your alias :
 * For PHP7: `-v /path/to/your/php/settings.ini:/etc/php7/conf.d/50-setting.ini`
-* For PHP5: `-v /path/to/your/php/settings.ini:/etc/php5/conf.d/50-setting.ini`
+* For PHP5: `-v /path/to/your/php/settings.ini:/etc/php5/conf.d/50-setting.ini`ettings.ini:/etc/php5/conf.d/50-setting.ini`
