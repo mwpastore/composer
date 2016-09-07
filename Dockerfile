@@ -4,6 +4,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.version="php-5.6" \
       org.label-schema.docker.dockerfile="/Dockerfile" \
       org.label-schema.vcs-url="https://github.com/soifou/composer"
 
